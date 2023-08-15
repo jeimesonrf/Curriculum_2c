@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Comfortaa, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.body{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;   
+    background-image: url("foto_sherlock.png") no-repeat cover .3;
+    background-size: cover;
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+}
+
+#cabelho h1 {
+    font-size: 48pt;
+}
